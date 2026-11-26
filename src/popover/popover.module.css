@@ -1,0 +1,43 @@
+.popover{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    background-color: var(--grey-900);
+    position: absolute;
+    align-items: center;
+}
+.divImage{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.divImage > img{
+    width: 1.25rem ;
+    height: 1.25rem;
+}
+
+.column {
+    inset: -1rem -2rem -1.125rem;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    justify-content: start;
+    align-items: center;
+    z-index: 1;
+}
+
+.row{
+    padding-inline: 2.375rem;
+    padding-block:1.125rem;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+
+.divPopover{
+    background-color: var(--grey-900);
+    position: absolute;
+    transform: rotate(45deg);
+    width: 1rem;
+    height: 1rem;
+    z-index: 1;
+}
